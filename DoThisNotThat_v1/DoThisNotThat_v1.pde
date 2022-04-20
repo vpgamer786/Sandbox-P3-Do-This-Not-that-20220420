@@ -4,6 +4,13 @@ float buttonX2, buttonY2, buttonWidth2, buttonHeight2;
 //
 void setup()
 {
+  //Display Geometry
+  fullScreen(); //displayWidth, displayHeight
+  println( displayWidth, displayHeight );
+  int appWidth = displayWidth;
+  int appHeight = displayHeight;
+  println( appWidth, appHeight );
+  //
   /*Population
    buttonX1 = ; 
    buttonY1 = ; 
